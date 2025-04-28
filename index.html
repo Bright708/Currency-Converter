@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <div class="card">
@@ -12,11 +13,15 @@
             <h1>Currency Converter</h1>
             <form class="form">
                 <label for="Convert From">
-                    <input class="input" type="text" name="Convert-from" id="from" placeholder="Convert from...">
+                    <input class="input" type="text" name="Convert-from" id="from" placeholder="Convert from(Country Code)...">
+                </label>
+                <label for="Amount">
+                    <input class="input" type="text" name="Amount" id="amount" placeholder="Enter your amount">
                 </label>
                 <label for="Convert to">
-                    <input class="input" type="text" name="Convert-to" id="to" placeholder="Convert to...">
+                    <input class="input" type="text" name="Convert-to" id="to" placeholder="Convert to(Country Code)...">
                 </label>
+                
                 <input class="submit" type="submit" value="Convert">
                 <div class="result">
                     <h2>Result</h2>
